@@ -1,2 +1,2 @@
 # Test-automation-tabliczki.pro
-ATC for tabliczki.pro page
+ATCs for tabliczki.pro page
