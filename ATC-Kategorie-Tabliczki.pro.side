@@ -1,0 +1,350 @@
+{
+  "id": "f5d2b59e-6c72-4018-89c4-afbbd447aba6",
+  "version": "2.0",
+  "name": "ATC-Kategorie-Tabliczki.pro",
+  "url": "https://tabliczki.pro",
+  "tests": [{
+    "id": "ab8688f4-4537-4a06-b10c-e7680fd9806f",
+    "name": "TestCase-1",
+    "commands": [{
+      "id": "41db7c14-0e58-4caf-b468-8470f75b6265",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "616cdedd-d271-4f30-b9ac-0804e6fc856b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "945x1020",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "db72515f-b2ca-4612-90f8-41671613a07b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Tabliczki informacyjne Universal",
+      "targets": [
+        ["linkText=Tabliczki informacyjne Universal", "linkText"],
+        ["css=.wpb_column:nth-child(1) .wpb_column:nth-child(1) a:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Tabliczki informacyjne Universal')]", "xpath:link"],
+        ["xpath=//article[@id='post-6564']/div/div[2]/div/div/div/div[2]/div/div/div/div/div/h4/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/kategoria/tabliczki-i-piktogramy/tabliczki-informacyjne-aluminiowe-universal/')]", "xpath:href"],
+        ["xpath=//h4/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Tabliczki informacyjne Universal')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e82ef4fc-6470-4abb-8b38-723dbae7b358",
+      "comment": "",
+      "command": "click",
+      "target": "css=.type-product:nth-child(1) .pl-effect > .attachment-large",
+      "targets": [
+        ["css=.type-product:nth-child(1) .pl-effect > .attachment-large", "css:finder"],
+        ["xpath=(//img[@alt='Tabliczka przydrzwiowa Universal U21-31'])[2]", "xpath:img"],
+        ["xpath=//section[@id='content']/ul/div/div/div/a/div/div/div/div/img", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c2ec6c4f-3d0a-4a17-820d-ab540a527470",
+      "comment": "",
+      "command": "click",
+      "target": "name=add-to-cart",
+      "targets": [
+        ["name=add-to-cart", "name"],
+        ["css=.single_add_to_cart_button", "css:finder"],
+        ["xpath=//button[@name='add-to-cart']", "xpath:attributes"],
+        ["xpath=//div[@id='product-1004']/div[3]/form/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Dodaj do koszyka')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7820b5e4-8c63-4649-afc8-713d78079db5",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.floating-cart-total",
+      "targets": [
+        ["css=.floating-cart-total", "css:finder"],
+        ["xpath=//a[@id='floating-cart']/span", "xpath:idRelative"],
+        ["xpath=//div[2]/a/span", "xpath:position"]
+      ],
+      "value": "1"
+    }, {
+      "id": "ba161360-ef55-4c98-967f-1c7a9ae082b6",
+      "comment": "",
+      "command": "type",
+      "target": "id=quantity_662caccc78f29",
+      "targets": [
+        ["id=quantity_662caccc78f29", "id"],
+        ["name=quantity", "name"],
+        ["css=#quantity_662caccc78f29", "css:finder"],
+        ["xpath=//input[@id='quantity_662caccc78f29']", "xpath:attributes"],
+        ["xpath=//div[@id='product-1004']/div[3]/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "2"
+    }, {
+      "id": "cca2e8e1-1a2e-40ae-a21a-3652bba38331",
+      "comment": "",
+      "command": "click",
+      "target": "id=quantity_662caccc78f29",
+      "targets": [
+        ["id=quantity_662caccc78f29", "id"],
+        ["name=quantity", "name"],
+        ["css=#quantity_662caccc78f29", "css:finder"],
+        ["xpath=//input[@id='quantity_662caccc78f29']", "xpath:attributes"],
+        ["xpath=//div[@id='product-1004']/div[3]/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "df63e844-25fa-496f-8113-df6cbd76b185",
+      "comment": "",
+      "command": "click",
+      "target": "name=add-to-cart",
+      "targets": [
+        ["name=add-to-cart", "name"],
+        ["css=.single_add_to_cart_button", "css:finder"],
+        ["xpath=//button[@name='add-to-cart']", "xpath:attributes"],
+        ["xpath=//div[@id='product-1004']/div[3]/form/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Dodaj do koszyka')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "904a4510-bf9a-496f-ac45-5b5f8cd35732",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.floating-cart-total",
+      "targets": [
+        ["css=.floating-cart-total", "css:finder"],
+        ["xpath=//a[@id='floating-cart']/span", "xpath:idRelative"],
+        ["xpath=//div[2]/a/span", "xpath:position"]
+      ],
+      "value": "3"
+    }, {
+      "id": "9a82abcf-524f-442b-9ede-30da4a57672c",
+      "comment": "",
+      "command": "type",
+      "target": "id=quantity_662cad1032616",
+      "targets": [
+        ["id=quantity_662cad1032616", "id"],
+        ["name=quantity", "name"],
+        ["css=#quantity_662cad1032616", "css:finder"],
+        ["xpath=//input[@id='quantity_662cad1032616']", "xpath:attributes"],
+        ["xpath=//div[@id='product-1004']/div[3]/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "1"
+    }, {
+      "id": "b4782229-4654-43ab-98a7-fc25b6c9a9b3",
+      "comment": "",
+      "command": "click",
+      "target": "id=quantity_662cad1032616",
+      "targets": [
+        ["id=quantity_662cad1032616", "id"],
+        ["name=quantity", "name"],
+        ["css=#quantity_662cad1032616", "css:finder"],
+        ["xpath=//input[@id='quantity_662cad1032616']", "xpath:attributes"],
+        ["xpath=//div[@id='product-1004']/div[3]/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "77966265-583c-40e3-9308-0eaed3bb703f",
+      "comment": "",
+      "command": "click",
+      "target": "name=add-to-cart",
+      "targets": [
+        ["name=add-to-cart", "name"],
+        ["css=.single_add_to_cart_button", "css:finder"],
+        ["xpath=//button[@name='add-to-cart']", "xpath:attributes"],
+        ["xpath=//div[@id='product-1004']/div[3]/form/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Dodaj do koszyka')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ac33b9c1-5b43-42c6-a611-2ea337f058a4",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=floating-cart",
+      "targets": [
+        ["id=floating-cart", "id"],
+        ["linkText=4", "linkText"],
+        ["css=#floating-cart", "css:finder"],
+        ["xpath=//a[@id='floating-cart']", "xpath:attributes"],
+        ["xpath=//a[contains(@href, 'javascript:void(0)')]", "xpath:href"],
+        ["xpath=//body/div[2]/div[2]/a", "xpath:position"]
+      ],
+      "value": "4"
+    }, {
+      "id": "18535331-9e18-41cd-b6e2-ebee0f281369",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[@id='menu_bar_section']/div/div/div/nav/div/label/select",
+      "targets": [
+        ["xpath=//div[@id='menu_bar_section']/div/div/div/nav/div/label/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "eae85165-69e5-4fc7-bbb2-3ff1025ca486",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Tabliczki info. Mini Univerasl",
+      "targets": [
+        ["linkText=Tabliczki info. Mini Univerasl", "linkText"],
+        ["css=.wpb_column:nth-child(1) .wpb_column:nth-child(1) a:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'Tabliczki info. Mini Univerasl')]", "xpath:link"],
+        ["xpath=//article[@id='post-6564']/div/div[2]/div/div/div/div[2]/div/div/div/div/div/h4/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/kategoria/tabliczki-i-piktogramy/tabliczki-informacyjne-aluminiowe-mini-universal/')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Tabliczki info. Mini Univerasl')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2308ec1a-fbb9-4852-9ed5-09c2563112dc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.type-product:nth-child(1) .pl-effect > .attachment-large",
+      "targets": [
+        ["css=.type-product:nth-child(1) .pl-effect > .attachment-large", "css:finder"],
+        ["xpath=(//img[@alt='Tabliczka przydrzwiowa Mini Universal MU-17-2-31W'])[2]", "xpath:img"],
+        ["xpath=//section[@id='content']/ul/div/div/div/a/div/div/div/div/img", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "15f5f3e7-46d5-4221-92fc-34e32850b52d",
+      "comment": "",
+      "command": "click",
+      "target": "name=add-to-cart",
+      "targets": [
+        ["name=add-to-cart", "name"],
+        ["css=.single_add_to_cart_button", "css:finder"],
+        ["xpath=//button[@name='add-to-cart']", "xpath:attributes"],
+        ["xpath=//div[@id='product-1111']/div[3]/form/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Dodaj do koszyka')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "51d9afaa-83fd-496a-87e4-0b633be01a50",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.floating-cart-total",
+      "targets": [
+        ["css=.floating-cart-total", "css:finder"],
+        ["xpath=//a[@id='floating-cart']/span", "xpath:idRelative"],
+        ["xpath=//div[2]/a/span", "xpath:position"]
+      ],
+      "value": "5"
+    }, {
+      "id": "71013d2b-b4a8-4e6b-a8ee-cec578002301",
+      "comment": "",
+      "command": "type",
+      "target": "id=quantity_662cadbf7b5db",
+      "targets": [
+        ["id=quantity_662cadbf7b5db", "id"],
+        ["name=quantity", "name"],
+        ["css=#quantity_662cadbf7b5db", "css:finder"],
+        ["xpath=//input[@id='quantity_662cadbf7b5db']", "xpath:attributes"],
+        ["xpath=//div[@id='product-1111']/div[3]/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "2"
+    }, {
+      "id": "3f051f9b-7665-4548-afcb-1121c61204c6",
+      "comment": "",
+      "command": "click",
+      "target": "id=quantity_662cadbf7b5db",
+      "targets": [
+        ["id=quantity_662cadbf7b5db", "id"],
+        ["name=quantity", "name"],
+        ["css=#quantity_662cadbf7b5db", "css:finder"],
+        ["xpath=//input[@id='quantity_662cadbf7b5db']", "xpath:attributes"],
+        ["xpath=//div[@id='product-1111']/div[3]/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "48e7c5d9-8f39-4282-aaae-bb4091d9d1de",
+      "comment": "",
+      "command": "click",
+      "target": "name=add-to-cart",
+      "targets": [
+        ["name=add-to-cart", "name"],
+        ["css=.single_add_to_cart_button", "css:finder"],
+        ["xpath=//button[@name='add-to-cart']", "xpath:attributes"],
+        ["xpath=//div[@id='product-1111']/div[3]/form/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Dodaj do koszyka')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6a272484-4130-43e6-b990-4dda9010c55e",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.floating-cart-total",
+      "targets": [
+        ["css=.floating-cart-total", "css:finder"],
+        ["xpath=//a[@id='floating-cart']/span", "xpath:idRelative"],
+        ["xpath=//div[2]/a/span", "xpath:position"]
+      ],
+      "value": "7"
+    }, {
+      "id": "5c352590-50d7-4e9b-9db8-23906366b285",
+      "comment": "",
+      "command": "type",
+      "target": "id=quantity_662cadd76b230",
+      "targets": [
+        ["id=quantity_662cadd76b230", "id"],
+        ["name=quantity", "name"],
+        ["css=#quantity_662cadd76b230", "css:finder"],
+        ["xpath=//input[@id='quantity_662cadd76b230']", "xpath:attributes"],
+        ["xpath=//div[@id='product-1111']/div[3]/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "1"
+    }, {
+      "id": "7075be31-6297-4f1c-a2ca-8852194a924f",
+      "comment": "",
+      "command": "click",
+      "target": "id=quantity_662cadd76b230",
+      "targets": [
+        ["id=quantity_662cadd76b230", "id"],
+        ["name=quantity", "name"],
+        ["css=#quantity_662cadd76b230", "css:finder"],
+        ["xpath=//input[@id='quantity_662cadd76b230']", "xpath:attributes"],
+        ["xpath=//div[@id='product-1111']/div[3]/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7ff8b024-34a5-4154-a581-e3954ea59549",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.floating-cart-total",
+      "targets": [
+        ["css=.floating-cart-total", "css:finder"],
+        ["xpath=//a[@id='floating-cart']/span", "xpath:idRelative"],
+        ["xpath=//div[2]/a/span", "xpath:position"]
+      ],
+      "value": "7"
+    }]
+  }],
+  "suites": [{
+    "id": "ddba5e1e-76f9-46f8-a667-ca823fc6c01e",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://tabliczki.pro/"],
+  "plugins": []
+}
